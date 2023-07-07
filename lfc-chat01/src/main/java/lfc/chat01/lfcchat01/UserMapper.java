@@ -1,4 +1,4 @@
-package lfc.chat01.lfcchat01.chat01;
+package lfc.chat01.lfcchat01;
 
 import java.util.List;
 import java.util.Map;

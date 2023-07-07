@@ -61,3 +61,24 @@ mybatis 学习
 		</plugins>
 	</build>
 ```
+
+### 调整应用配置
+
+application.yml
+
+```yml
+spring:
+  datasource: # 配置mysql,改用mybatis-config.xml;&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=Asia/Shanghai&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/javacode2018?characterEncoding=UTF-8
+    username: root
+    password: 123456
+
+server:
+  port: 8086 # 默认端口
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+```
+
+以上配置调整好后,就可以进行测试了

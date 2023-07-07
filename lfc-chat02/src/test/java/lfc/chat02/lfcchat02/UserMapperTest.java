@@ -1,4 +1,4 @@
-package lfc.chat01.lfcchat01;
+package lfc.chat02.lfcchat02;
 
 import java.util.ArrayList;
 import java.util.Arrays;
