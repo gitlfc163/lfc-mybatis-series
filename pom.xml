@@ -16,6 +16,7 @@
   <modules>
     <module>lfc-chat01</module>
     <module>lfc-chat02</module>
+    <module>lfcmybatisplus-samples</module>
   </modules>
 
   <name>lfc-mybatis-series</name>

@@ -1,0 +1,10 @@
+spring:
+  datasource:  # 配置mysql,改用mybatis-config.xml;&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=Asia/Shanghai&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/javacode2018?characterEncoding=UTF-8
+    username: root
+    password: 123456
+    
+server:
+  port: 8099  # 默认端口
+
