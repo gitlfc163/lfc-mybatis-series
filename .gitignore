@@ -25,3 +25,4 @@ replay_pid*
 mybatis-series/target/classes/*
 mybatis-series/target/*
 lfc-chat01/target/*
+lfc-chat02/target/*
