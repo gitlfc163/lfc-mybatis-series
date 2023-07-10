@@ -10,10 +10,10 @@
 		<version>1.0</version>
 	</parent>
 
-	<groupId>lfcmybatisplus.samples</groupId>
-	<artifactId>lfcmybatisplus-samples</artifactId>
+	<groupId>lfcmybatisplus.samples2</groupId>
+	<artifactId>lfcmybatisplus-samples2</artifactId>
 	<version>1.0</version>
-	<name>lfcmybatisplus-samples</name>
+	<name>lfcmybatisplus-samples2</name>
 	<description>Demo project for Spring Boot</description>
 
 	<!-- 指定maven.compiler.source和maven.compiler.target-->
