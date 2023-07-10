@@ -10,6 +10,7 @@
   
   <groupId>lfc.mybatis.series</groupId>
   <artifactId>lfc-mybatis-series</artifactId>
+  <!-- 要手工添加和指定packaging为pom-->
   <packaging>pom</packaging>
   <version>1.0</version>
   
@@ -25,7 +26,7 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-  	<!-- 指定maven.compiler.source和maven.compiler.target-->
+  <!-- 指定maven.compiler.source和maven.compiler.target-->
 	<properties>
 		<maven.compiler.source>20</maven.compiler.source>
 		<maven.compiler.target>20</maven.compiler.target>
