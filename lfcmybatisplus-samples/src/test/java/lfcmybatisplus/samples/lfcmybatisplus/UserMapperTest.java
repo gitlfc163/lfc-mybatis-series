@@ -7,10 +7,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import lfcmybatisplus.samples.lfcmybatisplus.entity.User;
 import lfcmybatisplus.samples.lfcmybatisplus.mapper.UserMapper;
 import lfcmybatisplus.samples.lfcmybatisplus.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
 
 @SpringBootTest
+@Slf4j
 public class UserMapperTest {
 
     @Autowired
@@ -23,7 +25,7 @@ public class UserMapperTest {
     public void TestUserMapperSelect() {
         System.out.println(("----- selectAll method test ------"));
         List<User> userList = userMapper.selectList(null);
-        // Assert.assertEquals(5, userList.size());
+        log.info("TestUserMapperSelect:");
         userList.forEach(System.out::println);
 
     }
@@ -32,6 +34,7 @@ public class UserMapperTest {
     public void TstUserServiceList() {
         System.out.println(("----- selectAll method test ------"));
         List<User> userList = userService.list(null);
+        log.info("TstUserServiceList:");
         // Assert.assertEquals(5, userList.size());
         userList.forEach(System.out::println);
 
